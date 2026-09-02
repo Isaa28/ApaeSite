@@ -13,6 +13,53 @@
   --shadow:0 20px 55px rgba(43,67,52,.10);
   --radius:24px;
 }
+
+section#noticias div.news-carousel{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 12px !important;
+  width: 100% !important;
+}
+
+#noticias .news{
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+#noticias .news::-webkit-scrollbar{ display: none; }
+
+#noticias .news-card{
+  flex: 0 0 340px !important;
+  scroll-snap-align: start;
+}
+
+#noticias .news-nav{
+  all: unset;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #2F6B57;      /* verde da marca — ajuste pro tom exato do "Quero ajudar" */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 20px -10px rgba(0,0,0,0.35);
+  transition: background .2s ease, transform .2s ease;
+  box-sizing: border-box;
+}
+#noticias .news-nav i{ font-size: 15px; }
+#noticias .news-nav:hover{ background: #244F41; transform: scale(1.05); }
+#noticias .news-nav:disabled{ opacity: .3; cursor: default; transform: none; }
+
 .valores i {
   color: var(--primary);
   margin-bottom: 12px;
