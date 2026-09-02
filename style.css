@@ -13,6 +13,25 @@
   --shadow:0 20px 55px rgba(43,67,52,.10);
   --radius:24px;
 }
+.valores i {
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+body.dark .valores i {
+  background: linear-gradient(90deg, #4ade80, #60a5fa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.visao {
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+.missao i {
+  color: var(--primary);
+  margin-bottom: 12px;
+}
 
 [data-theme="dark"]{
   --primary:#7EAF91;
@@ -259,7 +278,7 @@ h2{
   min-height:460px;
   border-radius:32px;
   background:
-    url("https://images.unsplash.com/photo-1504159506876-f8338247a14a?auto=format&fit=crop&w=1000&q=85")
+    url("assets/foto 1.JPG")
     center/cover;
   box-shadow:var(--shadow);
 }
@@ -322,7 +341,7 @@ h2{
   color:var(--primary);
   letter-spacing:-.05em;
 }
-.number span{color:var(--muted);font-size:12px;font-weight:600}
+.number span{color:var(--muted);font-size:14px;font-weight:600}
 
 /* Help banner */
 .help{
