@@ -1066,6 +1066,7 @@ footer {
   border-top: 1px solid var(--line);
   padding: 38px 0;
   background: var(--paper);
+  background-color:#23543E;
 }
 
 .footer {
@@ -1077,17 +1078,19 @@ footer {
 
 .footer-brand strong {
   font-family: "Manrope", sans-serif;
+  color:#E4E8E2;
 }
 
 .footer-brand span {
   display: block;
   font-size: 11px;
-  color: var(--muted);
+  color:#E4E8E2;
 }
 
 .social {
   display: flex;
   gap: 8px;
+  color:#E4E8E2;
 }
 
 .social a {
@@ -1099,16 +1102,18 @@ footer {
   place-items: center;
   color: var(--muted);
   font-size: 13px;
+  color: #E4E8E2;
 }
 
 .social a:hover {
-  color: var(--primary);
-  border-color: var(--primary);
+  color:  #03cd83;
+  border-color: #03cd83;
+
 }
 
 .copyright {
   font-size: 11px;
-  color: var(--muted);
+  color:#E4E8E2;
 }
 
 /* Responsive */
