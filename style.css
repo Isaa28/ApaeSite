@@ -476,59 +476,16 @@ h1 em {
   width: 112px;
   height: 112px;
   border-radius: 50%;
-  background: var(--accent);
-  color: var(--green-950);
+  background: var(--primary);
   display: grid;
   place-items: center;
-  text-align: center;
-  padding: 16px;
-  font-size: 11px;
-  font-weight: 900;
-  line-height: 1.15;
+  padding: 12px;
   transform: rotate(-9deg);
   border: 5px solid var(--paper);
   box-shadow: 0 13px 28px rgba(43,67,52,.12);
+  overflow: hidden;
 }
 
-.hero-sticker i {
-  display: block;
-  font-size: 19px;
-  margin-bottom: 5px;
-}
-
-.floating-card {
-  position: absolute;
-  right: 8px;
-  top: 70px;
-  width: 190px;
-  padding: 17px;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 19px;
-  box-shadow: var(--shadow);
-  z-index: 4;
-}
-
-.floating-card .icon {
-  width: 38px;
-  height: 38px;
-  border-radius: 12px;
-  background: var(--primary-light);
-  color: var(--primary);
-  display: grid;
-  place-items: center;
-  margin-bottom: 10px;
-}
-
-.floating-card strong {
-  font-size: 13px;
-}
-
-.floating-card p {
-  font-size: 11px;
-  color: var(--muted);
-  margin: 3px 0 0;
-}
 
 /* Sections */
 
@@ -965,6 +922,7 @@ h2 {
 }
 
 .contact-item {
+  cursor: pointer;
   display: flex;
   gap: 14px;
   padding: 17px 0;
