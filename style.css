@@ -1253,7 +1253,7 @@ footer {
 ======================================== */
 
 .atividades-section {
-  background: #f8f7f2;
+  background: var(--cream);
   padding: 100px 0 110px;
   position: relative;
 }
@@ -1281,11 +1281,11 @@ footer {
   line-height: 1.05;
   letter-spacing: -2px;
   font-weight: 700;
-  color: #1e3029;
+  color: var(--text);
 }
 
 .atividades-header h2 span {
-  color: #28785a;
+  color: var(--primary);
 }
 
 .atividades-header h2::after {
@@ -1303,8 +1303,9 @@ footer {
   margin: 0 auto;
   font-size: 17px;
   line-height: 1.7;
-  color: #65756e;
+  color: var(--muted);
 }
+
 
 /* GRID */
 
@@ -1319,8 +1320,8 @@ footer {
 /* CARD */
 
 .atividade-card {
-  background: #fffefa;
-  border: 1px solid #e5e5dc;
+  --sage: #365342;
+  border: 1px solid #e5e5dc59;
   border-radius: 22px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(35, 64, 52, 0.06);
@@ -1399,7 +1400,7 @@ footer {
   margin: 0 0 12px;
   font-size: 18px;
   line-height: 1.35;
-  color: #182b24;
+  --primary: #7EAF91; 
   font-weight: 700;
 }
 
@@ -1409,7 +1410,7 @@ footer {
   margin: 0;
   font-size: 14px;
   line-height: 1.65;
-  color: #718078;
+  color: #8fa097;
 }
 
 /* ========================================
