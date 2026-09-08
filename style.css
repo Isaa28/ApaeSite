@@ -430,7 +430,7 @@ h1 em {
   inset: 40px 55px 28px 25px;
   border: 10px solid var(--paper);
   border-radius: 44% 56% 48% 52% / 46% 44% 56% 54%;
-  background: url("assets/fotoinicio3.JPG") center/cover;
+  background: url("assets/fotohero.jpg") center/cover;
   box-shadow: 0 24px 60px rgba(43,67,52,.14);
   transform: rotate(-2deg);
 }
